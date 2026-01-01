@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery | Travel Diaries</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #f3e8ff; font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(10px); border-radius: 1.5rem; }
+    </style>
+</head>
+<body class="p-6">
+    <nav class="max-w-5xl mx-auto flex justify-between mb-12 items-center">
+        <a href="index.html" class="font-bold">← BACK</a>
+        <h1 class="text-2xl font-bold italic">The Archives</h1>
+        <div class="w-10"></div>
+    </nav>
+
+    <div class="max-w-5xl mx-auto space-y-16">
+        <section>
+            <h2 class="text-4xl font-bold mb-4">Illam <span class="text-sm font-normal opacity-50">3210m</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="h-64 bg-purple-300 rounded-3xl overflow-hidden"><img src="illam.jpg" class="w-full h-full object-cover"></div>
+                <div class="h-64 bg-purple-300 rounded-3xl overflow-hidden"><img src="illam2.jpg" class="w-full h-full object-cover"></div>
+                <div class="h-64 glass p-6 flex items-center text-sm italic">Ilam is famous for its natural scenery and tea production. Visiting Kanyam and Antu Danda offers a peaceful escape with breathtaking views of the fog rolling over the hills.</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-4xl font-bold mb-4">Everest Base Camp</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="h-80 bg-purple-300 rounded-3xl overflow-hidden"><img src="everest.jpg.webp" class="w-full h-full object-cover"></div>
+                <div class="h-80 bg-purple-300 rounded-3xl overflow-hidden"><img src="everest2.jpg.webp" class="w-full h-full object-cover"></div>
+            </div>
+            <p class="mt-6 glass p-6 text-purple-900/80 leading-relaxed">"Standing at 5,364 meters at the foot of the world’s highest peak. A journey through the Khumbu region, passing through Sherpa villages and icy glaciers."
+                    </p></p>
+        </section>
+    </div>
+</body>
+</html>
